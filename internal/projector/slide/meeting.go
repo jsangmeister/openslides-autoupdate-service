@@ -88,3 +88,9 @@ func WiFiAccessData(store *projector.SlideStore) {
 		return responseValue, nil
 	})
 }
+
+func Chess(store *projector.SlideStore) {
+	store.RegisterSliderFunc("chess", func(ctx context.Context, fetch *datastore.Fetcher, p7on *projector.Projection) (encoded []byte, err error) {
+		return nil, nil
+	})
+}

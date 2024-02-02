@@ -9,6 +9,7 @@ func Slides() *projector.SlideStore {
 	s := new(projector.SlideStore)
 	AgendaItemList(s)
 	Assignment(s)
+	Chess(s)
 	ListOfSpeaker(s)
 	CurrentListOfSpeakers(s)
 	CurrentSpeakerChyron(s)
